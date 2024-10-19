@@ -1,0 +1,631 @@
+--------------------------------------------------------------------------------
+
+Next speaker: initial_assistant
+
+Replying as initial_assistant. Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+initial_assistant (to chat_manager):
+
+Can you clarify what type of clothing item you are looking for? Are you interested in something casual, formal, for sports, or perhaps for a special occasion?
+
+--------------------------------------------------------------------------------
+
+Next speaker: initial_assistant
+
+Replying as initial_assistant. Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: boxers formal
+initial_assistant (to chat_manager):
+
+boxers formal
+
+--------------------------------------------------------------------------------
+
+Next speaker: initial_assistant
+
+Replying as initial_assistant. Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+initial_assistant (to chat_manager):
+
+Got it, you're looking for formal boxers. Can I confirm if you have any preferences for color, pattern, or material? For instance, are you partial towards neutral colors, silk material, or perhaps a specific design pattern?
+
+--------------------------------------------------------------------------------
+
+Next speaker: initial_assistant
+
+Replying as initial_assistant. Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: blue and large
+initial_assistant (to chat_manager):
+
+blue and large
+
+--------------------------------------------------------------------------------
+
+Next speaker: initial_assistant
+
+Replying as initial_assistant. Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+initial_assistant (to chat_manager):
+
+Great! I understand that you're looking for blue, large, formal boxers. Anything special known as comfortable or preferred in terms of fit?  Would you prefer loose or tight fit?
+
+--------------------------------------------------------------------------------
+
+Next speaker: initial_assistant
+
+Replying as initial_assistant. Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: i do sports wnated a more fit boxer
+initial_assistant (to chat_manager):
+
+i do sports wnated a more fit boxer
+
+--------------------------------------------------------------------------------
+
+Next speaker: initial_assistant
+
+Replying as initial_assistant. Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+initial_assistant (to chat_manager):
+
+Perfect! Your preferences have been noted. To confirm, you're looking for large, blue, formal boxers that are fitted, usually suitable for someone who does sports.
+
+CHECKING PRODUCTS BASED ON: ['large size', 'blue color', 'formal style', 'fitted boxers', 'sports suitable']
+
+--------------------------------------------------------------------------------
+
+Next speaker: ragproxyagent
+
+User preferences: ['large size', 'blue color', 'formal style', 'fitted boxers', 'sports suitable']
+Trying to create collection.
+Number of requested results 20 is greater than number of elements in index 2, updating n_results = 2
+doc_ids:  [['doc_0', 'doc_1']]
+Adding content of doc doc_0 to context.
+Adding content of doc doc_1 to context.
+ragproxyagent (to chat_manager):
+
+You're a retrieve augmented chatbot. You answer user's questions based on your own knowledge and the
+context provided by the user.
+If you can't answer the question with or without the current context, you should reply exactly `UPDATE CONTEXT`.
+You must give as short an answer as possible.
+
+User's question is: Retrieve products matching these preferences: ['large size', 'blue color', 'formal style', 'fitted boxers', 'sports suitable']
+
+Context is: ,Price,Reviews,Description,Title,variances
+0,39.0,4844.0,"ANTI-ODOR AND ANTI-SWEAT TECHNOLOGY
+
+The Insider Tech T-Shirt is made from breathable fabric that absorbs and evaporates sweat quickly. So it doesn't just help control body temperature, it also avoids any unpleasant sweat rings under your armpits.
+
+
+Our advanced fabric also offers antibacterial technology. This means that it can inhibit the growth of the bacteria which can cause unpleasant odors throughout the day. That is why we refer to the Tech T-Shirt as the anti-odor and anti-sweat t-shirt.
+
+Insider's products are made to last. For that reason, we chose a high-durability technology to prevent color fading, even after several washes.
+
+A FABRIC WITH LOW ENVIRONMENTAL IMPACT
+
+The Tech T-Shirt is made from modal fabric, which is produced from reforested wood. The production of just one modal t-shirt uses four times less water than a cotton one, saving 2,000 liters per item.
+
+On top of all that, it's insecticide and pesticide-free. Although the production of conventional cotton occupies only 2.4% of the planet's planted area, it accounts for 11% of the pesticides and 25% of the insecticides used in agriculture worldwide.
+
+VERSATILITY FOR YOUR DAILY ROUTINE
+
+We know how hard it is to keep cool and fresh in warm conditions. That's why we develop technological clothing to ensure you are comfortable even when temperatures rise.
+
+This black Tech T-shirt is elegant and minimalist, a great choice for casual appointments, whilst the vibrant colors in our range bring a modern touch, whether they are styled with jeans or twill pants.
+
+The Tech T-shirt is also a great choice for evening engagements, either paired with a modern jacket or a classic all-black look.
+
+GET TO KNOW OUR ESSENTIALS
+
+Insider's products are essential for comfortable, odor- and sweat-free daily use. Our breathable technology is to be found in our casual, sports and underwear lines.
+
+We invest in textile technology to create high-end sustainable products, whilst embracing a clean, local and efficient supply chain. In addition to modal fabric, we also use biodegradable polyamine in certain products, such as our Performance T-Shirt, an advanced sports top designed to help you achieve your best. Our Tech T-Shirt has been developed to make life easier for healthy living every day. It doesn't need to be ironed, it won't leave you feeling too hot and it offers anti-odor technology. Thanks to its breathability, you can experience long-lasting comfort and enjoyment. This t-shirt is an essential item for everyday wear, whether you are in an office or enjoying the outdoors.",Tech T-Shirt,"{'Black': ['S', 'M', 'L', 'XL', 'XXL', 'XXLL'], 'Blue': ['S', 'M', 'L', 'XL', 'XXL'], 'Off White': ['XS', 'S', 'M', 'L', 'XL', 'XXL'], 'Nori Green': ['XS', 'S', 'M', 'L', 'XL', 'XXL'], 'Indigo': ['S', 'M', 'XL', 'XXL'], 'Carmenere': ['XS', 'S', 'M', 'L', 'XL', 'XXL'], 'Grey': ['S', 'M', 'L', 'XL', 'XXL']}"
+1,42.0,35.0,"Insider’s Tech T-Shirt V Neck is a high tech version of the traditional v-shaped neck t-shirt. It absorbs sweat and evaporates it quickly, offering an increased thermal comfort all day long. This also helps to avoid those inconvenient sweat rings on your armpit.
+
+Our fabric also avoids unpleasant odors caused by microorganisms. Sweat, despite being a natural mechanism of the body, can obtain a bad smell when in contact with bacteria on the skin. By blocking the growth of those bacteria with its antibacterial action, our Tech T-Shirt V Neck will help to prevent bad odors throughout the day.
+
+Low environmental impact fabric
+
+The Tech T-Shirt V Neck is made from modal fabric, which comes from reforested wood. One t-shirt made out of modal fabric uses 4x less water than a cotton one to be produced, a saving of 2000 liters per piece.
+
+In addition, it is insecticide and pesticide free, as opposed to conventional cotton, whose production, despite occupying only 2.4% of the planet's planted area, accounts for 11% of the pesticides and 25% of the insecticides usage in agriculture worldwide. How about a simple and effective way to vary your t-shirts? The Tech T-Shirt V Neck is a great alternative. The shallow elegant v-shaped neck is ideal for a clean, minimalist look suitable for both casual and work environments. Insider’s t-shirts combine technology and smart design. We prioritize comfort and functionality in all of our products, focusing on wellness through clothing. ",Tech T-Shirt V-Neck,"{'Grey': ['S', 'M', 'L', 'XL', 'XXL'], 'Black': ['S', 'M', 'L', 'XL', 'XXL'], 'Blue': ['S', 'M', 'L', 'XL', 'XXL'], 'Off White': ['S', 'M', 'L', 'XL', 'XXL'], 'Nori Green': ['S', 'M', 'L', 'XL', 'XXL']}"
+2,49.0,82.0,"It's not easy to get dressed in mid-season: while the beginning and end of the day are marked by lower temperatures, the weather heats up throughout the afternoon. To survive this variation, it is common to wear a long-sleeved blouse, coat and even a scarf.
+
+However, the solution is not practical at all. After all, it is necessary to take and place the pieces several times a day. Therefore, it is important to wear technological clothing, capable of adapting to variations in temperature.
+
+Our long sleeve t-shirt quickly absorbs and evaporates sweat. Thus, the breathability of the piece prevents the feeling of suffocation. Plus, you can avoid sweat stains and the feeling of dampness on frosty days.
+
+Noble and sustainable fiber
+
+The Tech T-Shirt Long Sleeve, long sleeve shirt from Insider, is produced with modal, a noble and ultra-pleasant fiber. It acts directly on regulation and thermal comfort, offering excellent levels of breathability. In addition, the fabric prevents the proliferation of bacteria that cause bad odor.
+
+Modal goes through a sustainable cyclical process. During production, the waste recovery rate is 95%. Furthermore, it is biodegradable and compostable, facilitating disposal and reducing negative impacts on nature.
+
+
+
+Design and versatility
+
+Insider's long sleeve t-shirt is a minimalist blouse. It has a U-shaped bald collar that causes a nice visual effect highlighting the shoulders. The neckline is not very hollow and offers good protection for the chest, an important feature for cold days.
+
+The long-sleeved black t-shirt can be combined with sweatpants or jogger pants, creating laid-back looks. It also works with twill bottoms for an office look. There are several good matches for a great, well-balanced look for many different occasions.
+
+
+
+Discover our products
+
+Insider has a complete line for daily use, technological and functional clothing. Comfort, design and breathability are the main features of our products.
+
+Do you suffer from excessive sweating? Our undershirts can be the solution. This inner shirt fits perfectly to the body, having a high level of sweat absorption and evaporation, while avoiding embarrassing sweat rings on your shirt. The long sleeve t-shirt is a must in winter and mid-season. After all, when temperatures drop, it's time to put away your summer clothes and get the stronger pieces out of the drawers. That's why Insider developed the Tech T-Shirt Long Sleeve, a men's long-sleeved t-shirt with thermodynamic technology, which helps regulate body temperature. With that, despite thermal variations throughout the day, you are protected and comfortable.",Tech T-Shirt Long Sleeve,"{'Black': ['S', 'M', 'L', 'XL', 'XXL'], 'Grey': ['S', 'M', 'L', 'XL', 'XXL']}"
+3,22.0,1803.0,"Comfort  boxers underwear are made out of highly absorbing fabric twice as effective in sweat absorption than traditional cotton underwear. It absorbs and evaporates the sweat before it reaches your pants, avoiding embarrassing stains and unpleasant odors.
+
+There are two options, the simple and the anti-sweat model. The main difference is that the anti-sweat model has additional fabric lining both in the front and in the back, while the simple version features only an additional layer of fabric in the front. Anti-sweat version brings even more protection and it is recommended for those with intense sweating.
+
+The best underwear: quality and technology
+
+At Insider, you can find products with thermodynamic technology that helps regulate body temperature. This factor, by itself, already helps perspiration. However, our fabrics also have superior sweat absorption and breathability, resulting in an anti-odor effect.
+
+Comfort Boxer is made for any situation, being the best briefs to maintain comfort and well-being throughout a busy work day. It is firm enough, keeping everything in place, and it features anti-sweat protection where you need it the most: in the back, between the legs and in the front. Its technological fabric prevents the proliferation of bacteria.
+
+
+
+Comfortable and ecological underwear
+
+The fabric used in our underwear, with fiber of natural origin, makes it ultra soft. Besides, it adapts to the body, making those embarrassing ""digging outs"" unnecessary. In other words, it keeps everything in place, without tightening! That is why they are called the perfect underwear: they are comfortable and also functional.
+
+They can also be considered eco-friendly, because they require four times less water than traditional cotton underwear. The fashion industry is the second most polluting industry in the world, so it is important for us to use processes that are less aggressive to the environment.
+
+Moreover, due to their increased durability, Insider's underwear make you consume less and better.
+
+Technological clothing is at Insider Store
+
+To bring all these benefits to our products, we use textile technology to create something functional and with less impact on the environment. Another important point is that the fabrics used in our Comfort Boxer are Oeko-Tex® certified (we do not use products that are harmful to human health).
+
+With Insider underwear, you will be ready to fulfill an agenda of appointments and go to events without thinking about sweat and common discomforts for men. See the models in our catalog and choose the best option for you! The comfort boxer was created to bring more comfort to your everyday life. It is made with an extra soft, breathable and odor-preventing natural fiber, designed to provide all-day-long well-being even on the busiest days. Higher temperatures and business attire do not go well together. Even so, some occasions still call for the classic dress shirt and pants combination. With this in mind, Insider developed the Comfort Boxers to make your days easier and more pleasant. We want you to stay confident that odor and sweat won’t get in the way of you solving the real problems out there.",Comfort Boxer,"{'Black': ['S', 'S', 'M', 'M', 'L', 'L', 'XL', 'XL', 'XXL', 'XXL', 'XXLL', 'XXLL'], 'Blue': ['S', 'M', 'L', 'XL', 'XXL'], 'Gray': ['S', 'M', 'L', 'XL', 'XXL'], 'Blue Stone': ['S', 'M', 'L', 'XL', 'XXL']}"
+4,25.0,1500.0,"Underpants are not always comfortable in sports. They can tighten up, curl, and completely ruin even the most basic activities, such as walking, by causing rashes due to excessive friction.
+
+Our performance boxer is a made-for-sports underwear. It avoids the discomfort of rolling up the leg, because it is longer than regular boxers, and it avoids friction and rashes between the legs. In addition, it is highly resistant to traction, withstanding the abrupt movements of sports over and over again. Like that wasn’t enough, it wicks sweat out extremely quickly.
+
+Underwear can be technological too!
+
+Our clothing lines feature technology to make your life easier. We want you to feel comfortable doing all activities without having to worry about your garments. That's why our products have ultra-fast drying and improved breathability.
+
+Sustainable fashion is also part of our DNA: the fabric of our performance underwear is made from the first biodegradable polyamide ever developed. We provide comfort while avoiding bigger impacts on the environment. That is technological clothing.
+
+Performance Boxer is available in two models
+
+The Performance Boxer is available in simple and anti-sweat versions. Both are are great underwear for practicing sports and surviving the hot days but the difference between them is that besides the extra fabric lining on the front and between the legs (available in the simple version), the anti-sweat version also has lining on the back.
+
+You can also compare Insider's Performance Boxer with Comfort Boxer. The former is the best underwear for physical activities, for being ultra resistant to traction and for drying sweat very quickly. The Comfort version, on the other hand, is indicated for day-to-day activities, for having a super soft touch.
+
+You will find the best underwear at Insider Store
+
+Insider's goal is to make your daily life easier through functional products specially designed to solve your problems. For this reason, we developed the performance underwear, so that you don't need to worry about heat, sweat, or even physical discomfort, such as rolling up or that uncomfortable feeling of squeezing.
+
+When wearing our underwear you can focus on what really matters and overcome the day-to-day challenges, improving your performance at work or in sports. In addition, Insider's products are in accordance with the pillars of sustainable fashion. Check out our website to see the complete catalog.
+
+Read more Performance Boxer Performance Boxer is ideal for hot days and for practicing sports. Can you imagine running, playing soccer or any other sport with the assurance that your underwear won't get sweaty? Yes, it is possible.",Performance Boxer,"{'Black': ['S', 'S', 'M', 'M', 'L', 'L', 'XL', 'XL', 'XXL', 'XXL', 'XXLL', 'XXLL'], 'Blue': ['S', 'M', 'L', 'XL', 'XXL', 'XXLL'], 'Blue Stone': ['S', 'M', 'L', 'XL', 'XXL'], 'Green Grass': ['S', 'M', 'L', 'XL', 'XXL'], 'White': ['S', 'M', 'L', 'XL', 'XXL'], 'Gray': ['S', 'M', 'L', 'XL', 'XXL']}"
+7,29.0,745.0,"Is the t-shirt only short-sleeved?
+
+For the time being yes, but we are developing new products daily
+How long does the protection last after home washing?
+
+The anti-viral protection is guaranteed for at least 50 washes, and may extend depending on the aggressiveness of the wash.
+
+What is the advantage of an antiviral application on a garment such as a t-shirt?
+
+By using a t-shirt with antiviral application, cross contamination is avoided, i.e., when having contact with a contaminated person, the person wearing the t-shirt with antiviral protection does not take this contamination to his home, to the laundry, or to himself by rubbing his hand on the t-shirt and then on his face.
+
+How does the antiviral fabric act against viruses?
+
+In 2 ways: 1) By breaking the bilipidic layer of the virus causing the viral DNA/RNA, when exposed to the environment, to reduce its infectious capacity. 2) By blocking the binding of the virus in the host cells, thus preventing the virus from releasing its genetic material (DNA or RNA) inside them, reducing its infectious capacity in the cells.
+
+Are there any side effects of this antiviral application on human health?
+
+No, our product is non-cytotoxic, with stabilizers of vegetable origin and internationally validated technology through ISO 18 184, AATCC 100, and ASTM E 2149 certifications. Insider's Daily T-Shirt is proven effective against viruses with a reduction of up to 99.9% against the strains tested, according to ISO 18184 (Textiles: Determination of antiviral activity of textile products). The antimicrobial action in the fabric makes it a safer medium for cross contamination by restricting the growth of microorganisms.",Daily T-Shirt,"{'Off White': ['S', 'M', 'L', 'XL', 'XXL'], 'Bronze': ['XL', 'XXL'], 'Dry Leaf': ['S', 'M', 'L', 'XL', 'XXL']}"
+10,29.0,149.0,"Featuring an ultralight fabric, this men's sports t-shirt is highly breathable and sweat proof. It absorbs moisture and evaporates quickly, contributing to an enhanced sports performance.
+
+In addition, Sportee has microbial blocking action that deactivates 99.9% of viruses and bacteria, tested according to the international standard ISO 18184. Furthermore, it is anti-odor because it prevents the bacteria that cause bad smell from proliferating, and it has UV 60 protection - ideal for outdoor activities.
+
+High performance in your workouts
+
+Besides the antiviral men's sports t-shirt, Insider has developed other products that contribute to a high sports performance. Get to know also the Performance Briefs, the ideal underwear for hot days, with ultra-fast drying, anti-sweat and anti-odor.
+
+We also recommend the Performance Tee with Outlast technology developed by NASA. The microcapsules on the inner side absorb, store and release heat at the right rate. Insider’s Sportee features exclusive technology developed to help your athletic performance and to protect you from microorganisms. We combined the comfort of polyamide fabric with elastane with permanent antiviral action to create this lightweight t-shirt and make your physical activity routine much safer.",Sportee,"{'White': ['S', 'M', 'L', 'XL', 'XXL'], 'Black': ['S', 'M', 'L', 'XL', 'XXL']}"
+11,20.0,554.0,"The men's slip underwear is breathable and anti-odor, factors that add comfort, as they prevent heat from accumulating in the underwear region. To achieve these results, the fabric is made with premium synthetic yarn, which provides well-being and ultra-fast drying.
+
+Another important factor that makes all the difference when it comes to health and personal hygiene is the antibacterial property of the fabric. It prevents the proliferation of odor-causing bacteria. In addition, the anti-sweating characteristic is achieved by the absorption and rapid evaporation of sweat, avoiding the feeling of dampness.
+
+Briefs for a comfortable and safe routine
+
+A busy routine requires quality garments that make daily life more practical. Even in the period of high temperatures, some attires still demand the use of formal (and hot) clothes. In these cases, the need for technological underwear increases as a solution for excessive dampness and bad smells that can impact confidence and comfort.
+
+Insider's underwear is the ideal choice, because unlike a cotton brief, it absorbs and evaporates sweat quickly, avoiding embarrassing stains. In addition, the technology of the piece ensures that everything stays in place firmly, but without tightness.
+
+Conscious and sustainable consumption
+
+The processes adopted in the production of slip underwear are sustainable, since the fabric is made of the first biodegradable polyamide ever developed. Thus, it is possible to guarantee the necessary comfort for the day-to-day and, at the same time, reduce the impact on the environment.
+
+We use textile technology to ensure modern, functional underwear for both men and the environment. Our products have the international Oeko-Tex® certification, which proves that they are free of substances harmful to human health.
+
+Find your ideal slip underwear at Insider
+
+Ideal for those who do not give up well-being on a daily basis, the Insider men's slip underwear is a technical reinterpretation of the traditional underwear. Thus, it is possible to have thermal comfort, even on hot days, a characteristic that makes the piece suitable for several occasions.
+
+Insider's products have anti-odor and anti-perspiration technology so that you can fulfill a demanding schedule without worrying about embarrassing stains caused by perspiration. Tech briefs and undershirts are made with fabrics that adapt to the body, so you can stay comfortable and focus on what really matters: your performance. Insider's Briefs The Insider's briefs are a technological reinterpretation of the traditional slip underwear. Unlike the boxer-style, it has side cut-outs, keeping the legs free and providing a feeling of comfort and freedom.",Briefs,"{'Black': ['S', 'M', 'L', 'XL', 'XXL', 'S', 'M', 'L', 'XL', 'XXL']}"
+
+
+
+--------------------------------------------------------------------------------
+
+Next speaker: ragproxyagent
+
+Retrieved products: You're a retrieve augmented chatbot. You answer user's questions based on your own knowledge and the
+context provided by the user.
+If you can't answer the question with or without the current context, you should reply exactly `UPDATE CONTEXT`.
+You must give as short an answer as possible.
+
+User's question is: Retrieve products matching these preferences: ['large size', 'blue color', 'formal style', 'fitted boxers', 'sports suitable']
+
+Context is: ,Price,Reviews,Description,Title,variances
+0,39.0,4844.0,"ANTI-ODOR AND ANTI-SWEAT TECHNOLOGY
+
+The Insider Tech T-Shirt is made from breathable fabric that absorbs and evaporates sweat quickly. So it doesn't just help control body temperature, it also avoids any unpleasant sweat rings under your armpits.
+
+
+Our advanced fabric also offers antibacterial technology. This means that it can inhibit the growth of the bacteria which can cause unpleasant odors throughout the day. That is why we refer to the Tech T-Shirt as the anti-odor and anti-sweat t-shirt.
+
+Insider's products are made to last. For that reason, we chose a high-durability technology to prevent color fading, even after several washes.
+
+A FABRIC WITH LOW ENVIRONMENTAL IMPACT
+
+The Tech T-Shirt is made from modal fabric, which is produced from reforested wood. The production of just one modal t-shirt uses four times less water than a cotton one, saving 2,000 liters per item.
+
+On top of all that, it's insecticide and pesticide-free. Although the production of conventional cotton occupies only 2.4% of the planet's planted area, it accounts for 11% of the pesticides and 25% of the insecticides used in agriculture worldwide.
+
+VERSATILITY FOR YOUR DAILY ROUTINE
+
+We know how hard it is to keep cool and fresh in warm conditions. That's why we develop technological clothing to ensure you are comfortable even when temperatures rise.
+
+This black Tech T-shirt is elegant and minimalist, a great choice for casual appointments, whilst the vibrant colors in our range bring a modern touch, whether they are styled with jeans or twill pants.
+
+The Tech T-shirt is also a great choice for evening engagements, either paired with a modern jacket or a classic all-black look.
+
+GET TO KNOW OUR ESSENTIALS
+
+Insider's products are essential for comfortable, odor- and sweat-free daily use. Our breathable technology is to be found in our casual, sports and underwear lines.
+
+We invest in textile technology to create high-end sustainable products, whilst embracing a clean, local and efficient supply chain. In addition to modal fabric, we also use biodegradable polyamine in certain products, such as our Performance T-Shirt, an advanced sports top designed to help you achieve your best. Our Tech T-Shirt has been developed to make life easier for healthy living every day. It doesn't need to be ironed, it won't leave you feeling too hot and it offers anti-odor technology. Thanks to its breathability, you can experience long-lasting comfort and enjoyment. This t-shirt is an essential item for everyday wear, whether you are in an office or enjoying the outdoors.",Tech T-Shirt,"{'Black': ['S', 'M', 'L', 'XL', 'XXL', 'XXLL'], 'Blue': ['S', 'M', 'L', 'XL', 'XXL'], 'Off White': ['XS', 'S', 'M', 'L', 'XL', 'XXL'], 'Nori Green': ['XS', 'S', 'M', 'L', 'XL', 'XXL'], 'Indigo': ['S', 'M', 'XL', 'XXL'], 'Carmenere': ['XS', 'S', 'M', 'L', 'XL', 'XXL'], 'Grey': ['S', 'M', 'L', 'XL', 'XXL']}"
+1,42.0,35.0,"Insider’s Tech T-Shirt V Neck is a high tech version of the traditional v-shaped neck t-shirt. It absorbs sweat and evaporates it quickly, offering an increased thermal comfort all day long. This also helps to avoid those inconvenient sweat rings on your armpit.
+
+Our fabric also avoids unpleasant odors caused by microorganisms. Sweat, despite being a natural mechanism of the body, can obtain a bad smell when in contact with bacteria on the skin. By blocking the growth of those bacteria with its antibacterial action, our Tech T-Shirt V Neck will help to prevent bad odors throughout the day.
+
+Low environmental impact fabric
+
+The Tech T-Shirt V Neck is made from modal fabric, which comes from reforested wood. One t-shirt made out of modal fabric uses 4x less water than a cotton one to be produced, a saving of 2000 liters per piece.
+
+In addition, it is insecticide and pesticide free, as opposed to conventional cotton, whose production, despite occupying only 2.4% of the planet's planted area, accounts for 11% of the pesticides and 25% of the insecticides usage in agriculture worldwide. How about a simple and effective way to vary your t-shirts? The Tech T-Shirt V Neck is a great alternative. The shallow elegant v-shaped neck is ideal for a clean, minimalist look suitable for both casual and work environments. Insider’s t-shirts combine technology and smart design. We prioritize comfort and functionality in all of our products, focusing on wellness through clothing. ",Tech T-Shirt V-Neck,"{'Grey': ['S', 'M', 'L', 'XL', 'XXL'], 'Black': ['S', 'M', 'L', 'XL', 'XXL'], 'Blue': ['S', 'M', 'L', 'XL', 'XXL'], 'Off White': ['S', 'M', 'L', 'XL', 'XXL'], 'Nori Green': ['S', 'M', 'L', 'XL', 'XXL']}"
+2,49.0,82.0,"It's not easy to get dressed in mid-season: while the beginning and end of the day are marked by lower temperatures, the weather heats up throughout the afternoon. To survive this variation, it is common to wear a long-sleeved blouse, coat and even a scarf.
+
+However, the solution is not practical at all. After all, it is necessary to take and place the pieces several times a day. Therefore, it is important to wear technological clothing, capable of adapting to variations in temperature.
+
+Our long sleeve t-shirt quickly absorbs and evaporates sweat. Thus, the breathability of the piece prevents the feeling of suffocation. Plus, you can avoid sweat stains and the feeling of dampness on frosty days.
+
+Noble and sustainable fiber
+
+The Tech T-Shirt Long Sleeve, long sleeve shirt from Insider, is produced with modal, a noble and ultra-pleasant fiber. It acts directly on regulation and thermal comfort, offering excellent levels of breathability. In addition, the fabric prevents the proliferation of bacteria that cause bad odor.
+
+Modal goes through a sustainable cyclical process. During production, the waste recovery rate is 95%. Furthermore, it is biodegradable and compostable, facilitating disposal and reducing negative impacts on nature.
+
+
+
+Design and versatility
+
+Insider's long sleeve t-shirt is a minimalist blouse. It has a U-shaped bald collar that causes a nice visual effect highlighting the shoulders. The neckline is not very hollow and offers good protection for the chest, an important feature for cold days.
+
+The long-sleeved black t-shirt can be combined with sweatpants or jogger pants, creating laid-back looks. It also works with twill bottoms for an office look. There are several good matches for a great, well-balanced look for many different occasions.
+
+
+
+Discover our products
+
+Insider has a complete line for daily use, technological and functional clothing. Comfort, design and breathability are the main features of our products.
+
+Do you suffer from excessive sweating? Our undershirts can be the solution. This inner shirt fits perfectly to the body, having a high level of sweat absorption and evaporation, while avoiding embarrassing sweat rings on your shirt. The long sleeve t-shirt is a must in winter and mid-season. After all, when temperatures drop, it's time to put away your summer clothes and get the stronger pieces out of the drawers. That's why Insider developed the Tech T-Shirt Long Sleeve, a men's long-sleeved t-shirt with thermodynamic technology, which helps regulate body temperature. With that, despite thermal variations throughout the day, you are protected and comfortable.",Tech T-Shirt Long Sleeve,"{'Black': ['S', 'M', 'L', 'XL', 'XXL'], 'Grey': ['S', 'M', 'L', 'XL', 'XXL']}"
+3,22.0,1803.0,"Comfort  boxers underwear are made out of highly absorbing fabric twice as effective in sweat absorption than traditional cotton underwear. It absorbs and evaporates the sweat before it reaches your pants, avoiding embarrassing stains and unpleasant odors.
+
+There are two options, the simple and the anti-sweat model. The main difference is that the anti-sweat model has additional fabric lining both in the front and in the back, while the simple version features only an additional layer of fabric in the front. Anti-sweat version brings even more protection and it is recommended for those with intense sweating.
+
+The best underwear: quality and technology
+
+At Insider, you can find products with thermodynamic technology that helps regulate body temperature. This factor, by itself, already helps perspiration. However, our fabrics also have superior sweat absorption and breathability, resulting in an anti-odor effect.
+
+Comfort Boxer is made for any situation, being the best briefs to maintain comfort and well-being throughout a busy work day. It is firm enough, keeping everything in place, and it features anti-sweat protection where you need it the most: in the back, between the legs and in the front. Its technological fabric prevents the proliferation of bacteria.
+
+
+
+Comfortable and ecological underwear
+
+The fabric used in our underwear, with fiber of natural origin, makes it ultra soft. Besides, it adapts to the body, making those embarrassing ""digging outs"" unnecessary. In other words, it keeps everything in place, without tightening! That is why they are called the perfect underwear: they are comfortable and also functional.
+
+They can also be considered eco-friendly, because they require four times less water than traditional cotton underwear. The fashion industry is the second most polluting industry in the world, so it is important for us to use processes that are less aggressive to the environment.
+
+Moreover, due to their increased durability, Insider's underwear make you consume less and better.
+
+Technological clothing is at Insider Store
+
+To bring all these benefits to our products, we use textile technology to create something functional and with less impact on the environment. Another important point is that the fabrics used in our Comfort Boxer are Oeko-Tex® certified (we do not use products that are harmful to human health).
+
+With Insider underwear, you will be ready to fulfill an agenda of appointments and go to events without thinking about sweat and common discomforts for men. See the models in our catalog and choose the best option for you! The comfort boxer was created to bring more comfort to your everyday life. It is made with an extra soft, breathable and odor-preventing natural fiber, designed to provide all-day-long well-being even on the busiest days. Higher temperatures and business attire do not go well together. Even so, some occasions still call for the classic dress shirt and pants combination. With this in mind, Insider developed the Comfort Boxers to make your days easier and more pleasant. We want you to stay confident that odor and sweat won’t get in the way of you solving the real problems out there.",Comfort Boxer,"{'Black': ['S', 'S', 'M', 'M', 'L', 'L', 'XL', 'XL', 'XXL', 'XXL', 'XXLL', 'XXLL'], 'Blue': ['S', 'M', 'L', 'XL', 'XXL'], 'Gray': ['S', 'M', 'L', 'XL', 'XXL'], 'Blue Stone': ['S', 'M', 'L', 'XL', 'XXL']}"
+4,25.0,1500.0,"Underpants are not always comfortable in sports. They can tighten up, curl, and completely ruin even the most basic activities, such as walking, by causing rashes due to excessive friction.
+
+Our performance boxer is a made-for-sports underwear. It avoids the discomfort of rolling up the leg, because it is longer than regular boxers, and it avoids friction and rashes between the legs. In addition, it is highly resistant to traction, withstanding the abrupt movements of sports over and over again. Like that wasn’t enough, it wicks sweat out extremely quickly.
+
+Underwear can be technological too!
+
+Our clothing lines feature technology to make your life easier. We want you to feel comfortable doing all activities without having to worry about your garments. That's why our products have ultra-fast drying and improved breathability.
+
+Sustainable fashion is also part of our DNA: the fabric of our performance underwear is made from the first biodegradable polyamide ever developed. We provide comfort while avoiding bigger impacts on the environment. That is technological clothing.
+
+Performance Boxer is available in two models
+
+The Performance Boxer is available in simple and anti-sweat versions. Both are are great underwear for practicing sports and surviving the hot days but the difference between them is that besides the extra fabric lining on the front and between the legs (available in the simple version), the anti-sweat version also has lining on the back.
+
+You can also compare Insider's Performance Boxer with Comfort Boxer. The former is the best underwear for physical activities, for being ultra resistant to traction and for drying sweat very quickly. The Comfort version, on the other hand, is indicated for day-to-day activities, for having a super soft touch.
+
+You will find the best underwear at Insider Store
+
+Insider's goal is to make your daily life easier through functional products specially designed to solve your problems. For this reason, we developed the performance underwear, so that you don't need to worry about heat, sweat, or even physical discomfort, such as rolling up or that uncomfortable feeling of squeezing.
+
+When wearing our underwear you can focus on what really matters and overcome the day-to-day challenges, improving your performance at work or in sports. In addition, Insider's products are in accordance with the pillars of sustainable fashion. Check out our website to see the complete catalog.
+
+Read more Performance Boxer Performance Boxer is ideal for hot days and for practicing sports. Can you imagine running, playing soccer or any other sport with the assurance that your underwear won't get sweaty? Yes, it is possible.",Performance Boxer,"{'Black': ['S', 'S', 'M', 'M', 'L', 'L', 'XL', 'XL', 'XXL', 'XXL', 'XXLL', 'XXLL'], 'Blue': ['S', 'M', 'L', 'XL', 'XXL', 'XXLL'], 'Blue Stone': ['S', 'M', 'L', 'XL', 'XXL'], 'Green Grass': ['S', 'M', 'L', 'XL', 'XXL'], 'White': ['S', 'M', 'L', 'XL', 'XXL'], 'Gray': ['S', 'M', 'L', 'XL', 'XXL']}"
+7,29.0,745.0,"Is the t-shirt only short-sleeved?
+
+For the time being yes, but we are developing new products daily
+How long does the protection last after home washing?
+
+The anti-viral protection is guaranteed for at least 50 washes, and may extend depending on the aggressiveness of the wash.
+
+What is the advantage of an antiviral application on a garment such as a t-shirt?
+
+By using a t-shirt with antiviral application, cross contamination is avoided, i.e., when having contact with a contaminated person, the person wearing the t-shirt with antiviral protection does not take this contamination to his home, to the laundry, or to himself by rubbing his hand on the t-shirt and then on his face.
+
+How does the antiviral fabric act against viruses?
+
+In 2 ways: 1) By breaking the bilipidic layer of the virus causing the viral DNA/RNA, when exposed to the environment, to reduce its infectious capacity. 2) By blocking the binding of the virus in the host cells, thus preventing the virus from releasing its genetic material (DNA or RNA) inside them, reducing its infectious capacity in the cells.
+
+Are there any side effects of this antiviral application on human health?
+
+No, our product is non-cytotoxic, with stabilizers of vegetable origin and internationally validated technology through ISO 18 184, AATCC 100, and ASTM E 2149 certifications. Insider's Daily T-Shirt is proven effective against viruses with a reduction of up to 99.9% against the strains tested, according to ISO 18184 (Textiles: Determination of antiviral activity of textile products). The antimicrobial action in the fabric makes it a safer medium for cross contamination by restricting the growth of microorganisms.",Daily T-Shirt,"{'Off White': ['S', 'M', 'L', 'XL', 'XXL'], 'Bronze': ['XL', 'XXL'], 'Dry Leaf': ['S', 'M', 'L', 'XL', 'XXL']}"
+10,29.0,149.0,"Featuring an ultralight fabric, this men's sports t-shirt is highly breathable and sweat proof. It absorbs moisture and evaporates quickly, contributing to an enhanced sports performance.
+
+In addition, Sportee has microbial blocking action that deactivates 99.9% of viruses and bacteria, tested according to the international standard ISO 18184. Furthermore, it is anti-odor because it prevents the bacteria that cause bad smell from proliferating, and it has UV 60 protection - ideal for outdoor activities.
+
+High performance in your workouts
+
+Besides the antiviral men's sports t-shirt, Insider has developed other products that contribute to a high sports performance. Get to know also the Performance Briefs, the ideal underwear for hot days, with ultra-fast drying, anti-sweat and anti-odor.
+
+We also recommend the Performance Tee with Outlast technology developed by NASA. The microcapsules on the inner side absorb, store and release heat at the right rate. Insider’s Sportee features exclusive technology developed to help your athletic performance and to protect you from microorganisms. We combined the comfort of polyamide fabric with elastane with permanent antiviral action to create this lightweight t-shirt and make your physical activity routine much safer.",Sportee,"{'White': ['S', 'M', 'L', 'XL', 'XXL'], 'Black': ['S', 'M', 'L', 'XL', 'XXL']}"
+11,20.0,554.0,"The men's slip underwear is breathable and anti-odor, factors that add comfort, as they prevent heat from accumulating in the underwear region. To achieve these results, the fabric is made with premium synthetic yarn, which provides well-being and ultra-fast drying.
+
+Another important factor that makes all the difference when it comes to health and personal hygiene is the antibacterial property of the fabric. It prevents the proliferation of odor-causing bacteria. In addition, the anti-sweating characteristic is achieved by the absorption and rapid evaporation of sweat, avoiding the feeling of dampness.
+
+Briefs for a comfortable and safe routine
+
+A busy routine requires quality garments that make daily life more practical. Even in the period of high temperatures, some attires still demand the use of formal (and hot) clothes. In these cases, the need for technological underwear increases as a solution for excessive dampness and bad smells that can impact confidence and comfort.
+
+Insider's underwear is the ideal choice, because unlike a cotton brief, it absorbs and evaporates sweat quickly, avoiding embarrassing stains. In addition, the technology of the piece ensures that everything stays in place firmly, but without tightness.
+
+Conscious and sustainable consumption
+
+The processes adopted in the production of slip underwear are sustainable, since the fabric is made of the first biodegradable polyamide ever developed. Thus, it is possible to guarantee the necessary comfort for the day-to-day and, at the same time, reduce the impact on the environment.
+
+We use textile technology to ensure modern, functional underwear for both men and the environment. Our products have the international Oeko-Tex® certification, which proves that they are free of substances harmful to human health.
+
+Find your ideal slip underwear at Insider
+
+Ideal for those who do not give up well-being on a daily basis, the Insider men's slip underwear is a technical reinterpretation of the traditional underwear. Thus, it is possible to have thermal comfort, even on hot days, a characteristic that makes the piece suitable for several occasions.
+
+Insider's products have anti-odor and anti-perspiration technology so that you can fulfill a demanding schedule without worrying about embarrassing stains caused by perspiration. Tech briefs and undershirts are made with fabrics that adapt to the body, so you can stay comfortable and focus on what really matters: your performance. Insider's Briefs The Insider's briefs are a technological reinterpretation of the traditional slip underwear. Unlike the boxer-style, it has side cut-outs, keeping the legs free and providing a feeling of comfort and freedom.",Briefs,"{'Black': ['S', 'M', 'L', 'XL', 'XXL', 'S', 'M', 'L', 'XL', 'XXL']}"
+
+
+final_assistant (to chat_manager):
+
+User preferences: ['large size', 'blue color', 'formal style', 'fitted boxers', 'sports suitable']
+Retrieved products: You're a retrieve augmented chatbot. You answer user's questions based on your own knowledge and the
+context provided by the user.
+If you can't answer the question with or without the current context, you should reply exactly `UPDATE CONTEXT`.
+You must give as short an answer as possible.
+
+User's question is: Retrieve products matching these preferences: ['large size', 'blue color', 'formal style', 'fitted boxers', 'sports suitable']
+
+Context is: ,Price,Reviews,Description,Title,variances
+0,39.0,4844.0,"ANTI-ODOR AND ANTI-SWEAT TECHNOLOGY
+
+The Insider Tech T-Shirt is made from breathable fabric that absorbs and evaporates sweat quickly. So it doesn't just help control body temperature, it also avoids any unpleasant sweat rings under your armpits.
+
+
+Our advanced fabric also offers antibacterial technology. This means that it can inhibit the growth of the bacteria which can cause unpleasant odors throughout the day. That is why we refer to the Tech T-Shirt as the anti-odor and anti-sweat t-shirt.
+
+Insider's products are made to last. For that reason, we chose a high-durability technology to prevent color fading, even after several washes.
+
+A FABRIC WITH LOW ENVIRONMENTAL IMPACT
+
+The Tech T-Shirt is made from modal fabric, which is produced from reforested wood. The production of just one modal t-shirt uses four times less water than a cotton one, saving 2,000 liters per item.
+
+On top of all that, it's insecticide and pesticide-free. Although the production of conventional cotton occupies only 2.4% of the planet's planted area, it accounts for 11% of the pesticides and 25% of the insecticides used in agriculture worldwide.
+
+VERSATILITY FOR YOUR DAILY ROUTINE
+
+We know how hard it is to keep cool and fresh in warm conditions. That's why we develop technological clothing to ensure you are comfortable even when temperatures rise.
+
+This black Tech T-shirt is elegant and minimalist, a great choice for casual appointments, whilst the vibrant colors in our range bring a modern touch, whether they are styled with jeans or twill pants.
+
+The Tech T-shirt is also a great choice for evening engagements, either paired with a modern jacket or a classic all-black look.
+
+GET TO KNOW OUR ESSENTIALS
+
+Insider's products are essential for comfortable, odor- and sweat-free daily use. Our breathable technology is to be found in our casual, sports and underwear lines.
+
+We invest in textile technology to create high-end sustainable products, whilst embracing a clean, local and efficient supply chain. In addition to modal fabric, we also use biodegradable polyamine in certain products, such as our Performance T-Shirt, an advanced sports top designed to help you achieve your best. Our Tech T-Shirt has been developed to make life easier for healthy living every day. It doesn't need to be ironed, it won't leave you feeling too hot and it offers anti-odor technology. Thanks to its breathability, you can experience long-lasting comfort and enjoyment. This t-shirt is an essential item for everyday wear, whether you are in an office or enjoying the outdoors.",Tech T-Shirt,"{'Black': ['S', 'M', 'L', 'XL', 'XXL', 'XXLL'], 'Blue': ['S', 'M', 'L', 'XL', 'XXL'], 'Off White': ['XS', 'S', 'M', 'L', 'XL', 'XXL'], 'Nori Green': ['XS', 'S', 'M', 'L', 'XL', 'XXL'], 'Indigo': ['S', 'M', 'XL', 'XXL'], 'Carmenere': ['XS', 'S', 'M', 'L', 'XL', 'XXL'], 'Grey': ['S', 'M', 'L', 'XL', 'XXL']}"
+1,42.0,35.0,"Insider’s Tech T-Shirt V Neck is a high tech version of the traditional v-shaped neck t-shirt. It absorbs sweat and evaporates it quickly, offering an increased thermal comfort all day long. This also helps to avoid those inconvenient sweat rings on your armpit.
+
+Our fabric also avoids unpleasant odors caused by microorganisms. Sweat, despite being a natural mechanism of the body, can obtain a bad smell when in contact with bacteria on the skin. By blocking the growth of those bacteria with its antibacterial action, our Tech T-Shirt V Neck will help to prevent bad odors throughout the day.
+
+Low environmental impact fabric
+
+The Tech T-Shirt V Neck is made from modal fabric, which comes from reforested wood. One t-shirt made out of modal fabric uses 4x less water than a cotton one to be produced, a saving of 2000 liters per piece.
+
+In addition, it is insecticide and pesticide free, as opposed to conventional cotton, whose production, despite occupying only 2.4% of the planet's planted area, accounts for 11% of the pesticides and 25% of the insecticides usage in agriculture worldwide. How about a simple and effective way to vary your t-shirts? The Tech T-Shirt V Neck is a great alternative. The shallow elegant v-shaped neck is ideal for a clean, minimalist look suitable for both casual and work environments. Insider’s t-shirts combine technology and smart design. We prioritize comfort and functionality in all of our products, focusing on wellness through clothing. ",Tech T-Shirt V-Neck,"{'Grey': ['S', 'M', 'L', 'XL', 'XXL'], 'Black': ['S', 'M', 'L', 'XL', 'XXL'], 'Blue': ['S', 'M', 'L', 'XL', 'XXL'], 'Off White': ['S', 'M', 'L', 'XL', 'XXL'], 'Nori Green': ['S', 'M', 'L', 'XL', 'XXL']}"
+2,49.0,82.0,"It's not easy to get dressed in mid-season: while the beginning and end of the day are marked by lower temperatures, the weather heats up throughout the afternoon. To survive this variation, it is common to wear a long-sleeved blouse, coat and even a scarf.
+
+However, the solution is not practical at all. After all, it is necessary to take and place the pieces several times a day. Therefore, it is important to wear technological clothing, capable of adapting to variations in temperature.
+
+Our long sleeve t-shirt quickly absorbs and evaporates sweat. Thus, the breathability of the piece prevents the feeling of suffocation. Plus, you can avoid sweat stains and the feeling of dampness on frosty days.
+
+Noble and sustainable fiber
+
+The Tech T-Shirt Long Sleeve, long sleeve shirt from Insider, is produced with modal, a noble and ultra-pleasant fiber. It acts directly on regulation and thermal comfort, offering excellent levels of breathability. In addition, the fabric prevents the proliferation of bacteria that cause bad odor.
+
+Modal goes through a sustainable cyclical process. During production, the waste recovery rate is 95%. Furthermore, it is biodegradable and compostable, facilitating disposal and reducing negative impacts on nature.
+
+
+
+Design and versatility
+
+Insider's long sleeve t-shirt is a minimalist blouse. It has a U-shaped bald collar that causes a nice visual effect highlighting the shoulders. The neckline is not very hollow and offers good protection for the chest, an important feature for cold days.
+
+The long-sleeved black t-shirt can be combined with sweatpants or jogger pants, creating laid-back looks. It also works with twill bottoms for an office look. There are several good matches for a great, well-balanced look for many different occasions.
+
+
+
+Discover our products
+
+Insider has a complete line for daily use, technological and functional clothing. Comfort, design and breathability are the main features of our products.
+
+Do you suffer from excessive sweating? Our undershirts can be the solution. This inner shirt fits perfectly to the body, having a high level of sweat absorption and evaporation, while avoiding embarrassing sweat rings on your shirt. The long sleeve t-shirt is a must in winter and mid-season. After all, when temperatures drop, it's time to put away your summer clothes and get the stronger pieces out of the drawers. That's why Insider developed the Tech T-Shirt Long Sleeve, a men's long-sleeved t-shirt with thermodynamic technology, which helps regulate body temperature. With that, despite thermal variations throughout the day, you are protected and comfortable.",Tech T-Shirt Long Sleeve,"{'Black': ['S', 'M', 'L', 'XL', 'XXL'], 'Grey': ['S', 'M', 'L', 'XL', 'XXL']}"
+3,22.0,1803.0,"Comfort  boxers underwear are made out of highly absorbing fabric twice as effective in sweat absorption than traditional cotton underwear. It absorbs and evaporates the sweat before it reaches your pants, avoiding embarrassing stains and unpleasant odors.
+
+There are two options, the simple and the anti-sweat model. The main difference is that the anti-sweat model has additional fabric lining both in the front and in the back, while the simple version features only an additional layer of fabric in the front. Anti-sweat version brings even more protection and it is recommended for those with intense sweating.
+
+The best underwear: quality and technology
+
+At Insider, you can find products with thermodynamic technology that helps regulate body temperature. This factor, by itself, already helps perspiration. However, our fabrics also have superior sweat absorption and breathability, resulting in an anti-odor effect.
+
+Comfort Boxer is made for any situation, being the best briefs to maintain comfort and well-being throughout a busy work day. It is firm enough, keeping everything in place, and it features anti-sweat protection where you need it the most: in the back, between the legs and in the front. Its technological fabric prevents the proliferation of bacteria.
+
+
+
+Comfortable and ecological underwear
+
+The fabric used in our underwear, with fiber of natural origin, makes it ultra soft. Besides, it adapts to the body, making those embarrassing ""digging outs"" unnecessary. In other words, it keeps everything in place, without tightening! That is why they are called the perfect underwear: they are comfortable and also functional.
+
+They can also be considered eco-friendly, because they require four times less water than traditional cotton underwear. The fashion industry is the second most polluting industry in the world, so it is important for us to use processes that are less aggressive to the environment.
+
+Moreover, due to their increased durability, Insider's underwear make you consume less and better.
+
+Technological clothing is at Insider Store
+
+To bring all these benefits to our products, we use textile technology to create something functional and with less impact on the environment. Another important point is that the fabrics used in our Comfort Boxer are Oeko-Tex® certified (we do not use products that are harmful to human health).
+
+With Insider underwear, you will be ready to fulfill an agenda of appointments and go to events without thinking about sweat and common discomforts for men. See the models in our catalog and choose the best option for you! The comfort boxer was created to bring more comfort to your everyday life. It is made with an extra soft, breathable and odor-preventing natural fiber, designed to provide all-day-long well-being even on the busiest days. Higher temperatures and business attire do not go well together. Even so, some occasions still call for the classic dress shirt and pants combination. With this in mind, Insider developed the Comfort Boxers to make your days easier and more pleasant. We want you to stay confident that odor and sweat won’t get in the way of you solving the real problems out there.",Comfort Boxer,"{'Black': ['S', 'S', 'M', 'M', 'L', 'L', 'XL', 'XL', 'XXL', 'XXL', 'XXLL', 'XXLL'], 'Blue': ['S', 'M', 'L', 'XL', 'XXL'], 'Gray': ['S', 'M', 'L', 'XL', 'XXL'], 'Blue Stone': ['S', 'M', 'L', 'XL', 'XXL']}"
+4,25.0,1500.0,"Underpants are not always comfortable in sports. They can tighten up, curl, and completely ruin even the most basic activities, such as walking, by causing rashes due to excessive friction.
+
+Our performance boxer is a made-for-sports underwear. It avoids the discomfort of rolling up the leg, because it is longer than regular boxers, and it avoids friction and rashes between the legs. In addition, it is highly resistant to traction, withstanding the abrupt movements of sports over and over again. Like that wasn’t enough, it wicks sweat out extremely quickly.
+
+Underwear can be technological too!
+
+Our clothing lines feature technology to make your life easier. We want you to feel comfortable doing all activities without having to worry about your garments. That's why our products have ultra-fast drying and improved breathability.
+
+Sustainable fashion is also part of our DNA: the fabric of our performance underwear is made from the first biodegradable polyamide ever developed. We provide comfort while avoiding bigger impacts on the environment. That is technological clothing.
+
+Performance Boxer is available in two models
+
+The Performance Boxer is available in simple and anti-sweat versions. Both are are great underwear for practicing sports and surviving the hot days but the difference between them is that besides the extra fabric lining on the front and between the legs (available in the simple version), the anti-sweat version also has lining on the back.
+
+You can also compare Insider's Performance Boxer with Comfort Boxer. The former is the best underwear for physical activities, for being ultra resistant to traction and for drying sweat very quickly. The Comfort version, on the other hand, is indicated for day-to-day activities, for having a super soft touch.
+
+You will find the best underwear at Insider Store
+
+Insider's goal is to make your daily life easier through functional products specially designed to solve your problems. For this reason, we developed the performance underwear, so that you don't need to worry about heat, sweat, or even physical discomfort, such as rolling up or that uncomfortable feeling of squeezing.
+
+When wearing our underwear you can focus on what really matters and overcome the day-to-day challenges, improving your performance at work or in sports. In addition, Insider's products are in accordance with the pillars of sustainable fashion. Check out our website to see the complete catalog.
+
+Read more Performance Boxer Performance Boxer is ideal for hot days and for practicing sports. Can you imagine running, playing soccer or any other sport with the assurance that your underwear won't get sweaty? Yes, it is possible.",Performance Boxer,"{'Black': ['S', 'S', 'M', 'M', 'L', 'L', 'XL', 'XL', 'XXL', 'XXL', 'XXLL', 'XXLL'], 'Blue': ['S', 'M', 'L', 'XL', 'XXL', 'XXLL'], 'Blue Stone': ['S', 'M', 'L', 'XL', 'XXL'], 'Green Grass': ['S', 'M', 'L', 'XL', 'XXL'], 'White': ['S', 'M', 'L', 'XL', 'XXL'], 'Gray': ['S', 'M', 'L', 'XL', 'XXL']}"
+7,29.0,745.0,"Is the t-shirt only short-sleeved?
+
+For the time being yes, but we are developing new products daily
+How long does the protection last after home washing?
+
+The anti-viral protection is guaranteed for at least 50 washes, and may extend depending on the aggressiveness of the wash.
+
+What is the advantage of an antiviral application on a garment such as a t-shirt?
+
+By using a t-shirt with antiviral application, cross contamination is avoided, i.e., when having contact with a contaminated person, the person wearing the t-shirt with antiviral protection does not take this contamination to his home, to the laundry, or to himself by rubbing his hand on the t-shirt and then on his face.
+
+How does the antiviral fabric act against viruses?
+
+In 2 ways: 1) By breaking the bilipidic layer of the virus causing the viral DNA/RNA, when exposed to the environment, to reduce its infectious capacity. 2) By blocking the binding of the virus in the host cells, thus preventing the virus from releasing its genetic material (DNA or RNA) inside them, reducing its infectious capacity in the cells.
+
+Are there any side effects of this antiviral application on human health?
+
+No, our product is non-cytotoxic, with stabilizers of vegetable origin and internationally validated technology through ISO 18 184, AATCC 100, and ASTM E 2149 certifications. Insider's Daily T-Shirt is proven effective against viruses with a reduction of up to 99.9% against the strains tested, according to ISO 18184 (Textiles: Determination of antiviral activity of textile products). The antimicrobial action in the fabric makes it a safer medium for cross contamination by restricting the growth of microorganisms.",Daily T-Shirt,"{'Off White': ['S', 'M', 'L', 'XL', 'XXL'], 'Bronze': ['XL', 'XXL'], 'Dry Leaf': ['S', 'M', 'L', 'XL', 'XXL']}"
+10,29.0,149.0,"Featuring an ultralight fabric, this men's sports t-shirt is highly breathable and sweat proof. It absorbs moisture and evaporates quickly, contributing to an enhanced sports performance.
+
+In addition, Sportee has microbial blocking action that deactivates 99.9% of viruses and bacteria, tested according to the international standard ISO 18184. Furthermore, it is anti-odor because it prevents the bacteria that cause bad smell from proliferating, and it has UV 60 protection - ideal for outdoor activities.
+
+High performance in your workouts
+
+Besides the antiviral men's sports t-shirt, Insider has developed other products that contribute to a high sports performance. Get to know also the Performance Briefs, the ideal underwear for hot days, with ultra-fast drying, anti-sweat and anti-odor.
+
+We also recommend the Performance Tee with Outlast technology developed by NASA. The microcapsules on the inner side absorb, store and release heat at the right rate. Insider’s Sportee features exclusive technology developed to help your athletic performance and to protect you from microorganisms. We combined the comfort of polyamide fabric with elastane with permanent antiviral action to create this lightweight t-shirt and make your physical activity routine much safer.",Sportee,"{'White': ['S', 'M', 'L', 'XL', 'XXL'], 'Black': ['S', 'M', 'L', 'XL', 'XXL']}"
+11,20.0,554.0,"The men's slip underwear is breathable and anti-odor, factors that add comfort, as they prevent heat from accumulating in the underwear region. To achieve these results, the fabric is made with premium synthetic yarn, which provides well-being and ultra-fast drying.
+
+Another important factor that makes all the difference when it comes to health and personal hygiene is the antibacterial property of the fabric. It prevents the proliferation of odor-causing bacteria. In addition, the anti-sweating characteristic is achieved by the absorption and rapid evaporation of sweat, avoiding the feeling of dampness.
+
+Briefs for a comfortable and safe routine
+
+A busy routine requires quality garments that make daily life more practical. Even in the period of high temperatures, some attires still demand the use of formal (and hot) clothes. In these cases, the need for technological underwear increases as a solution for excessive dampness and bad smells that can impact confidence and comfort.
+
+Insider's underwear is the ideal choice, because unlike a cotton brief, it absorbs and evaporates sweat quickly, avoiding embarrassing stains. In addition, the technology of the piece ensures that everything stays in place firmly, but without tightness.
+
+Conscious and sustainable consumption
+
+The processes adopted in the production of slip underwear are sustainable, since the fabric is made of the first biodegradable polyamide ever developed. Thus, it is possible to guarantee the necessary comfort for the day-to-day and, at the same time, reduce the impact on the environment.
+
+We use textile technology to ensure modern, functional underwear for both men and the environment. Our products have the international Oeko-Tex® certification, which proves that they are free of substances harmful to human health.
+
+Find your ideal slip underwear at Insider
+
+Ideal for those who do not give up well-being on a daily basis, the Insider men's slip underwear is a technical reinterpretation of the traditional underwear. Thus, it is possible to have thermal comfort, even on hot days, a characteristic that makes the piece suitable for several occasions.
+
+Insider's products have anti-odor and anti-perspiration technology so that you can fulfill a demanding schedule without worrying about embarrassing stains caused by perspiration. Tech briefs and undershirts are made with fabrics that adapt to the body, so you can stay comfortable and focus on what really matters: your performance. Insider's Briefs The Insider's briefs are a technological reinterpretation of the traditional slip underwear. Unlike the boxer-style, it has side cut-outs, keeping the legs free and providing a feeling of comfort and freedom.",Briefs,"{'Black': ['S', 'M', 'L', 'XL', 'XXL', 'S', 'M', 'L', 'XL', 'XXL']}"
+
+
+
+--------------------------------------------------------------------------------
+
+Next speaker: final_assistant
+
+
+final_assistant (to chat_manager):
+
+Based on your preferences, I would recommend you the following products:
+
+1. Comfort Boxer: The Comfort Boxer is "Sports suitable" and "Blue color". It is "Large size" with high sweat absorption and evaporation, this underwear comes in an anti-sweat model that offers extra fabric lining for added protection and comfort. It's made with a soft, breathable, odor-preventing natural fiber designed for all-day wear, perfect for those busy days.
+
+2. Performance Boxer: Perfectly suiting your "Large size", "Blue color", "Sports suitable" preferences, the Performance Boxer is an ideal choice. Built specifically for sports activities, the underwear avoids discomfort, and provides high resistance to traction, which stand intense sporting activities.
+
+3. Tech T-Shirt: This "Blue color", "Large size" t-shirt also fits your "Formal style" preference. It absorbs and evaporates sweat quickly ensuring that you stay comfortable throughout the day. It is ideal for casual appointments and evening engagements, and pairs well with a jacket or a classic all-black look.
+
+These products are designed with a focus on comfort, functionality, and sustainability, aiming to enhance your daily routine experience. You can find these amazing products on Insider Store.
+
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+name,description,price,variances,reviews_score,number_of_reviews,image_urls
+"Summer Shirt","A lightweight summer shirt perfect for warm days.",29.99,"{""Black"": [""S"", ""M"", ""L""], ""Blue"": [""S"", ""M"", ""L""]}",4.5,50,"[""http://example.com/summer_shirt_1.jpg"", ""http://example.com/summer_shirt_2.jpg""]"
+"Winter Jacket","A warm jacket to keep you cozy during winter.",89.99,"{""Black"": [""S"", ""M"", ""L"", ""XL""], ""Gray"": [""M"", ""L"", ""XL""]}",4.7,120,"[""http://example.com/winter_jacket_1.jpg"", ""http://example.com/winter_jacket_2.jpg""]"
+"Casual Trousers","Comfortable trousers for everyday wear.",49.99,"{""Blue"": [""S"", ""M"", ""L""], ""Gray"": [""S"", ""M"", ""L"", ""XL""]}",4.3,30,"[""http://example.com/casual_trousers_1.jpg""]"
+"Formal Shirt","A formal shirt suitable for office wear.",39.99,"{""White"": [""S"", ""M"", ""L"", ""XL""], ""Blue Stone"": [""S""]}",4.2,75,"[""http://example.com/formal_shirt_1.jpg"", ""http://example.com/formal_shirt_2.jpg""]"
